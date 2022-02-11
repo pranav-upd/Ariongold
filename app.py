@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 csrf = CSRFProtect(app)
-app.config['SECRET_KEY'] = "**00899117##"
+app.config['SECRET_KEY'] = "YOUR SECRET KEY"
 
 """
 @app.errorhandler(Exception)
