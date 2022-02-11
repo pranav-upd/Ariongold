@@ -1,0 +1,71 @@
+body {
+    background-image: url("/static/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.form-container{
+    margin-top: 5%;
+    text-align: center;
+}
+
+button, .submit {
+    margin-top: 10%;
+    font-size: x-large;
+    padding: 20px 50px;
+    border: none;
+    color: black;
+}
+
+.button1 {
+    background-color: orange;
+    margin-right:65px;
+}
+
+.button2 {
+    background-color: aqua;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    background-color: black;
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+ul {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+textarea {
+    resize: none;
+    border-color: cadetblue;
+    padding: 50px 150px;
+    font-size: large;
+}
+
+
+.alert {
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}

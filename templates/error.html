@@ -1,0 +1,24 @@
+<!Doctype Html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/static/index.css">
+      <title>ArionPay Wallet</title>
+  </head>
+  <body style="font-weight: bold;">
+    <ul>
+        <li><a href="/">ArionPay</a></li>
+    </ul>
+  <br><br>
+  <h1 class="alert"> Error </h1>
+    <br><br>
+  <div class="form-container">
+      <h4>There was an error in processing your transaction. We regret the inconvenience caused.</h4>
+      <button onclick="home_redirect()">Return to home</button>
+  </div>
+  <script>
+      function home_redirect() {
+          location.replace("/")
+      }
+  </script>
+  </body>
+</html>

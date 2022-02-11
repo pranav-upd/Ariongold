@@ -1,0 +1,23 @@
+<!Doctype Html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/static/index.css">
+      <title>ArionPay Wallet</title>
+  </head>
+  <body style="font-weight: bold;">
+    <ul>
+        <li><a href="/">ArionPay</a></li>
+    </ul>
+  <br><br>
+  <h4>Your address is:{{addr}} and your current balance is {{bal}} </h4><br><br><br>
+  <div class="form-container">
+      <h4>To make a transcation, click the button below</h4>
+      <button onclick="transact_redirect()">Make a transaction</button>
+  </div>
+  <script>
+      function transact_redirect() {
+          location.replace("/transact")
+      }
+  </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!Doctype Html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/static/index.css">
+      <title>ArionPay Wallet</title>
+  </head>
+  <body style="font-weight: bold;">
+    <ul>
+        <li><a href="/">ArionPay</a></li>
+    </ul>
+  <br><br>
+  <h4>Your Newly generated address is:{{addr}} </h4><br>
+  <h4 class="alert">Please write the Mnemonic below or store it in a safe place.</h4>
+  <div class="form-container">
+  <textarea name="message">{{mnc}}</textarea><br>
+      <button onclick="login_redirect()">Login</button>
+  <script>
+       function login_redirect() {
+            location.replace("/login")
+       }
+  </script>
+  </body>
+</html>

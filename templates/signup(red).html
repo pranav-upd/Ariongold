@@ -1,0 +1,19 @@
+<!Doctype Html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/static/index.css">
+      <title>ArionPay Wallet</title>
+  </head>
+  <body style="font-weight: bold;">
+    <ul>
+        <li><a href="/">ArionPay</a></li>
+    </ul>
+  <br><br>
+  <div class="form-container">
+  <form method="post">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+  <input type="submit" class="submit" value="Submit">`
+  </form>
+  </div>
+  </body>
+</html>

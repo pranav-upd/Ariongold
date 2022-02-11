@@ -1,0 +1,26 @@
+<!Doctype Html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/static/index.css">
+      <title>ArionPay Wallet</title>
+  </head>
+  <body style="font-weight: bold;">
+    <ul>
+        <li><a href="/">ArionPay</a></li>
+    </ul>
+  <br><br>
+  <div class="form-container">
+  <button class="button button1" onclick="loginredirect()">Log In</button>
+  <button class="button button2" onclick="signupredirect()">Sign Up</button>
+  </div>
+  <script>
+      function loginredirect() {
+          location.replace("/login")
+      }
+
+      function signupredirect() {
+          location.replace("/signup")
+      }
+  </script>
+  </body>
+</html>
